@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState, useCallback } from 'react';
 import Lenis from '@studio-freight/lenis';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
+import { Analytics } from "@vercel/analytics/next"
 import Navbar from './components/Navbar';
 import WebGLBackground from './components/WebGLBackground';
 import CustomCursor from './components/CustomCursor';
