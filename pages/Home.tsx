@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import paramImg from '../image/Param.png';
 import Hero from '../components/Hero';
 import { ArrowRight, Code, Database, Globe, Zap } from 'lucide-react';
 
@@ -166,7 +167,7 @@ const MiniAbout = () => (
       </div>
       <div className="flex-1 relative order-1 md:order-2">
         <div className="aspect-[4/5] rounded-[2rem] overflow-hidden border border-zinc-900 grayscale brightness-75 hover:brightness-100 transition-all duration-1000">
-           <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" alt="Harshal" className="w-full h-full object-cover" />
+            <img src={paramImg} alt="Harshal" className="w-full h-full object-cover" />
         </div>
         <div className="absolute -bottom-8 -left-8 w-64 h-64 bg-zinc-800/10 blur-[120px] -z-10 rounded-full" />
       </div>

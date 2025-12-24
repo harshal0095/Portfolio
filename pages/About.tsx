@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import paramImg from '../image/Param.png';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { 
@@ -117,10 +118,10 @@ const About: React.FC = () => {
       <section className="py-20 md:py-32 lg:py-40 px-6 md:px-12 lg:px-24">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-24 items-center">
           <div className="parallax-container relative aspect-[4/5] w-full max-w-[280px] sm:max-w-[320px] md:max-w-[360px] lg:max-w-[380px] mx-auto rounded-2xl md:rounded-[3rem] lg:rounded-[4rem] overflow-hidden border border-zinc-900 group shadow-2xl order-2 lg:order-1">
-            <img 
-              src="https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=1200&q=80" 
-              alt="Harshal portrait" 
-              className="parallax-img absolute inset-0 w-full h-full object-cover grayscale brightness-50 transition-all duration-1000 group-hover:grayscale-0 group-hover:brightness-90" 
+            <img
+              src={paramImg}
+              alt="Harshal portrait"
+              className="parallax-img absolute inset-0 w-full h-full object-cover grayscale brightness-50 transition-all duration-1000 group-hover:grayscale-0 group-hover:brightness-90"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" />
           </div>
